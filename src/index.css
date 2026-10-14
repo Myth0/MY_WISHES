@@ -1,0 +1,58 @@
+/* ==========================================================================
+   POOKIE PROTOCOL - Global Styles & CSS Reset
+   Art Direction: LUXURY BLACK × CRIMSON RED × DARK CHERRY × SUBTLE ROSE GOLD
+   ========================================================================== */
+
+:root {
+  --color-void: #030305;
+  --color-obsidian: #09090D;
+  --color-deep-crimson: #790014;
+  --color-electric-crimson: #FF173D;
+  --color-cherry: #C00028;
+  --color-rose-gold: #D5A27C;
+  --color-warm-white: #F8EDEF;
+  
+  --font-serif-display: 'Cinzel', serif;
+  --font-serif-quote: 'Cormorant Garamond', serif;
+  --font-sans: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+  --ease-cinematic: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: var(--color-void);
+  color: var(--color-warm-white);
+  font-family: var(--font-sans);
+  font-size: 14px;
+  line-height: 1.6;
+  letter-spacing: 0.02em;
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+button {
+  background: none;
+  border: none;
+  font-family: inherit;
+  color: inherit;
+  cursor: pointer;
+  outline: none;
+}
